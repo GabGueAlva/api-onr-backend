@@ -1,0 +1,26 @@
+{
+  "development": {
+    "username": "postgres",
+    "password": "antonela1",
+    "database": "onr_database",
+    "host": "localhost",
+    "port": 5433,
+    "dialect": "postgres"
+  },
+  "test": {
+   "username": "postgres",
+    "password": "antonela1",
+    "database": "onr_database",
+    "host": "localhost",
+    "port": 5433,
+    "dialect": "postgres"
+  },
+  "production": {
+   "username": "postgres",
+    "password": "antonela1",
+    "database": "onr_database",
+    "host": "localhost",
+    "port": 5433,
+    "dialect": "postgres"
+    }
+}
