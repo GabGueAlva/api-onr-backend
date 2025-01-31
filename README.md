@@ -55,11 +55,11 @@ npm start
 
 API Endpoints
 
-The API endpoints are documented in Postman. You can import the provided Postman collection file into Postman to test the API.
+The API endpoints are documented in Postman. You can import the provided Postman CRUD Postgre.postman_collection collection file into Postman to test the API.
 
 Postman Collection
 
-The Postman collection file is included in the repository. You can import it into Postman to test the API endpoints.
+The Postman collection file is included in the repository. You can import it into Postman CRUD Postgre.postman_collection to test the API endpoints.
 
 Contact
 
