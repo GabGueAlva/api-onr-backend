@@ -1,43 +1,42 @@
-API-ONR-BACKEND
+# API-ONR-BACKEND
 
-Description
+## Description
 
-This project is a backend API built using Node.js, Express, and PostgreSQL with Sequelize as the ORM. The API follows the Onion Architecture and includes a relational database structure with users, associations, and units, as well as many-to-many relationships between them.
+This project is a backend API built using Node.js, Express, PostgreSQL with Sequelize as the ORM, and MongoDB for amenities and bookings. The API follows the Onion Architecture, enabling a modular design. The system includes a relational database structure with users, associations, and units, and a MongoDB setup for amenities and bookings. It manages many-to-many relationships between users and associations, as well as users and units.
 
-Technologies Used
+---
 
-Node.js
+## Technologies Used
 
-Express.js
+- **Node.js**
+- **Express.js**
+- **PostgreSQL**
+- **Sequelize ORM**
+- **MongoDB**
+- **Mongoose** (for MongoDB interaction)
 
-PostgreSQL
+---
 
-Sequelize ORM
+## Features
 
+- **CRUD operations** for Users, Associations, Units, Amenities, and Bookings.
+- **Many-to-many relationships** for Users and Associations, Users and Units.
+- **MongoDB integration** for Amenities and Bookings, enabling flexible data storage.
+- **Validation** to ensure relational integrity between PostgreSQL and MongoDB.
+- **API documentation** using Postman for easy testing and usage.
 
-Features
+---
 
-CRUD operations for Users, Associations, and Units
+## Installation
 
-Many-to-many relationships for Users and Associations, Users and Units
+### 1. Clone the repository:
 
-Validation to ensure relational integrity
+- git clone https://github.com/GabGueAlva/api-onr-backend.git
+cd api-onr-backend
 
-API documentation using Postman
+### 2. Configure the environment variables:
 
-Installation
-
-Clone the repository:
-
-(https://github.com/GabGueAlva/api-onr-backend.git)
-cd project-name
-
-Install dependencies:
-
-npm install
-
-Configure the environment variables:
-Create a .env file in the root directory with the following:
+-Create a .env file in the root directory with the following:
 
 DB_USERPOSTGRE=
 DB_PASSWORDPOSTGRE=
@@ -45,24 +44,28 @@ DB_HOSTPOSTGRE=
 DB_PORTPOSTGRE=
 DB_DATABASEPOSTGRE=
 
-Run database migrations:
+MONGO_URI=
 
-npx sequelize db:migrate
+### 3. Run database migrations:
 
-Start the server:
+-npx sequelize db:migrate
 
-npm run dev
+### 4. Start the server:
 
-API Endpoints
+-npm run dev
+-npm i
+
+---
+
+### Postman Collection
 
 The API endpoints are documented in Postman. You can import the provided Postman CRUD Postgre.postman_collection collection file into Postman to test the API.
+The Postman collection file is included in the repository. You can import it into Postman CRUD API REST CRUD.postman_collection to test the API endpoints.
 
-Postman Collection
-
-The Postman collection file is included in the repository. You can import it into Postman CRUD Postgre.postman_collection to test the API endpoints.
-
-Contact
+### Contact
 
 Email:agabrielaguevaraa@hotmail.com
+
+---
 
 For any questions or suggestions, feel free to reach out to me.
