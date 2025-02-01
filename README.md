@@ -51,7 +51,7 @@ npx sequelize db:migrate
 
 Start the server:
 
-npm start
+npm run dev
 
 API Endpoints
 
